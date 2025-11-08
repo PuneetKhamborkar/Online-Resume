@@ -1,3 +1,3 @@
 User-agent: *
-Disallow: /
-Sitemap: http://localhost:1313/Online-Resume/sitemap.xml
+Allow: /
+Sitemap: https://puneetkhamborkar.github.io/Online-Resume/sitemap.xml
