@@ -12,11 +12,11 @@ title = "Puneet Suresh Khamborkar"
   logo = "assets\img\PuneetPhoto.JPG"
   # secondaryLogo = "img/secondary-logo.png"
   description = "Online Resume"
-  copyright = "Copy, _right?_ :thinking_face:"
+  copyright = "Puneet Suresh Khamborkar"
 
 [params.author]
    name = "Puneet Suresh Khamborkar"
-   email = "khamborkrpunit@gmail.com"
+   email = "khamborkarpunit@gmail.com"
    image = "assets\img\PuneetPhoto.JPG"
    imageQuality = 96
    headline = "Technical Writer | Business Analyst | Product Owner"
