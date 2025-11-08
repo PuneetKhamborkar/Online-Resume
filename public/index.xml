@@ -8,7 +8,7 @@
     <language>en</language>
     <managingEditor>khamborkarpunit@gmail.com (Puneet Suresh Khamborkar)</managingEditor>
     <webMaster>khamborkarpunit@gmail.com (Puneet Suresh Khamborkar)</webMaster>
-    <copyright>Puneet Suresh Khamborkar</copyright>
+    <copyright>@Puneet Suresh Khamborkar</copyright>
     <atom:link href="http://localhost:1313/Online-Resume/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
@@ -23,20 +23,20 @@
     
     <item>
       <title></title>
-      <link>http://localhost:1313/Online-Resume/_experience/</link>
+      <link>http://localhost:1313/Online-Resume/_projects/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <author>khamborkarpunit@gmail.com (Puneet Suresh Khamborkar)</author>
-      <guid>http://localhost:1313/Online-Resume/_experience/</guid>
+      <guid>http://localhost:1313/Online-Resume/_projects/</guid>
       <description></description>
       
     </item>
     
     <item>
-      <title></title>
-      <link>http://localhost:1313/Online-Resume/_projects/</link>
+      <title>Experience</title>
+      <link>http://localhost:1313/Online-Resume/experience/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <author>khamborkarpunit@gmail.com (Puneet Suresh Khamborkar)</author>
-      <guid>http://localhost:1313/Online-Resume/_projects/</guid>
+      <guid>http://localhost:1313/Online-Resume/experience/</guid>
       <description></description>
       
     </item>

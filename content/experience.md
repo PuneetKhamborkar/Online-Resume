@@ -2,19 +2,18 @@
 title: "Experience"
 draft: false
 description: "experience"
+menu:
+  main:
+    name: "Experience"
+    weight: 20
 ---
 
 <section class="relative py-16 bg-black text-white">
   <h2 class="text-4xl font-bold text-center mb-12 text-transparent bg-clip-text bg-gradient-to-r from-pink-500 to-cyan-400 drop-shadow-[0_0_12px_rgba(255,0,255,0.6)]">
     💼 Experience
   </h2>
-
-  <!-- Vertical timeline line -->
   <div class="absolute left-1/2 transform -translate-x-1/2 w-1 bg-gradient-to-b from-pink-500 to-cyan-400 h-full rounded-full"></div>
-
   <div class="max-w-6xl mx-auto space-y-16">
-
-    <!-- Nitor Infotech -->
     <div class="relative flex flex-col md:flex-row items-center">
       <div class="hidden md:flex w-1/2 justify-end pr-8 text-right">
         <div class="max-w-md">
@@ -31,8 +30,6 @@ description: "experience"
       <div class="absolute left-1/2 transform -translate-x-1/2 w-6 h-6 bg-pink-500 rounded-full shadow-[0_0_15px_rgba(255,0,255,0.8)]"></div>
       <div class="md:w-1/2"></div>
     </div>
-
-    <!-- L&T -->
     <div class="relative flex flex-col md:flex-row items-center">
       <div class="md:w-1/2"></div>
       <div class="absolute left-1/2 transform -translate-x-1/2 w-6 h-6 bg-cyan-400 rounded-full shadow-[0_0_15px_rgba(0,255,255,0.8)]"></div>
@@ -52,8 +49,6 @@ description: "experience"
         </div>
       </div>
     </div>
-
-    <!-- Scriptwallah -->
     <div class="relative flex flex-col md:flex-row items-center">
       <div class="hidden md:flex w-1/2 justify-end pr-8 text-right">
         <div class="max-w-md">
@@ -68,8 +63,6 @@ description: "experience"
       <div class="absolute left-1/2 transform -translate-x-1/2 w-6 h-6 bg-pink-500 rounded-full shadow-[0_0_15px_rgba(255,0,255,0.8)]"></div>
       <div class="md:w-1/2"></div>
     </div>
-
-    <!-- Assistant Director -->
     <div class="relative flex flex-col md:flex-row items-center">
       <div class="md:w-1/2"></div>
       <div class="absolute left-1/2 transform -translate-x-1/2 w-6 h-6 bg-cyan-400 rounded-full shadow-[0_0_15px_rgba(0,255,255,0.8)]"></div>
@@ -83,8 +76,6 @@ description: "experience"
         </div>
       </div>
     </div>
-
-    <!-- Site Engineer -->
     <div class="relative flex flex-col md:flex-row items-center">
       <div class="hidden md:flex w-1/2 justify-end pr-8 text-right">
         <div class="max-w-md">
@@ -98,8 +89,6 @@ description: "experience"
       <div class="absolute left-1/2 transform -translate-x-1/2 w-6 h-6 bg-pink-500 rounded-full shadow-[0_0_15px_rgba(255,0,255,0.8)]"></div>
       <div class="md:w-1/2"></div>
     </div>
-
-    <!-- Project Engineer -->
     <div class="relative flex flex-col md:flex-row items-center">
       <div class="md:w-1/2"></div>
       <div class="absolute left-1/2 transform -translate-x-1/2 w-6 h-6 bg-cyan-400 rounded-full shadow-[0_0_15px_rgba(0,255,255,0.8)]"></div>
@@ -113,7 +102,6 @@ description: "experience"
         </div>
       </div>
     </div>
-
   </div>
 </section>
 
