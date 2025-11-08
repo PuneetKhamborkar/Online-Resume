@@ -2,10 +2,6 @@
 title: "Experience"
 draft: false
 description: "experience"
-menu:
-  main:
-    name: "Experience"
-    weight: 20
 ---
 
 <section class="relative py-16 bg-black text-white">
