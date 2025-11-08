@@ -1,0 +1,29 @@
+disabled = false
+languageCode = "en"
+languageName = "English"
+weight = 1
+title = "Puneet Suresh Khamborkar"
+
+[params]
+  displayName = "EN"
+  isoCode = "en"
+  rtl = false
+  dateFormat = "2 January 2006"
+  logo = "img/psklogo.png"
+  # secondaryLogo = "img/secondary-logo.png"
+  description = "Online Resume"
+  copyright = "@Puneet Suresh Khamborkar"
+
+[params.author]
+   name = "Puneet Suresh Khamborkar"
+   email = "khamborkarpunit@gmail.com"
+   image = "img/PuneetPhoto.JPG"
+   imageQuality = 96
+   headline = "Technical Writer | Business Analyst | Product Owner"
+   bio = "Founder @ www.cluelesstechnicalwriter.com"
+   links = [
+     { email = "mailto:khamborkarpunit@gmail.com" },
+     { link = "https://www.cluelesstechnicalwriter.com/" },
+     { github = "https://github.com/PuneetKhamborkar" },
+     { linkedin = "https://www.linkedin.com/in/puneet-khamborkar-5b386a124/" },
+  ]
