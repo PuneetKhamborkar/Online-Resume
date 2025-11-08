@@ -1,7 +1,6 @@
 ---
-title: "Home"
-date: {{ .Date }}
-draft: true
+title: "About Me"
+draft: false
 description: "About Me and Skills"
 ---
 # Hi, I am Puneet Suresh Khamborkar.
