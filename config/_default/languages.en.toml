@@ -9,7 +9,7 @@ title = "Puneet Suresh Khamborkar"
   isoCode = "en"
   rtl = false
   dateFormat = "2 January 2006"
-  logo = "img\PuneetPhoto.JPG"
+  logo = "img/PuneetPhoto.JPG"
   # secondaryLogo = "img/secondary-logo.png"
   description = "Online Resume"
   copyright = "Puneet Suresh Khamborkar"
@@ -17,7 +17,7 @@ title = "Puneet Suresh Khamborkar"
 [params.author]
    name = "Puneet Suresh Khamborkar"
    email = "khamborkarpunit@gmail.com"
-   image = "assets\img\PuneetPhoto.JPG"
+   image = "img/PuneetPhoto.JPG"
    imageQuality = 96
    headline = "Technical Writer | Business Analyst | Product Owner"
    bio = "Founder @ cluelesstechnicalwriter.com"
