@@ -1,6 +1,14 @@
 ---
 title: "Experience"
 draft: false
+layout: "full"
+showAuthor: false
+showDate: false
+showPagination: false
+showReadingTime: false
+showBreadcrumbs: false
+showComments: false
+showEdit: false
 description: "experience"
 ---
 

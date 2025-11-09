@@ -13,22 +13,22 @@
     
     <item>
       <title></title>
-      <link>http://localhost:1313/Online-Resume/_certifications/</link>
+      <link>http://localhost:1313/Online-Resume/project/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <author>khamborkarpunit@gmail.com (Puneet Suresh Khamborkar)</author>
-      <guid>http://localhost:1313/Online-Resume/_certifications/</guid>
+      <guid>http://localhost:1313/Online-Resume/project/</guid>
       <description></description>
       
     </item>
     
     <item>
-      <title></title>
-      <link>http://localhost:1313/Online-Resume/_projects/</link>
+      <title>Certifications</title>
+      <link>http://localhost:1313/Online-Resume/certifications/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <author>khamborkarpunit@gmail.com (Puneet Suresh Khamborkar)</author>
-      <guid>http://localhost:1313/Online-Resume/_projects/</guid>
+      <guid>http://localhost:1313/Online-Resume/certifications/</guid>
       <description></description>
-      
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/Online-Resume/certifications/feature1.jpg" />
     </item>
     
     <item>
