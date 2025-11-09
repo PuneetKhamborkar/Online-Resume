@@ -2,7 +2,6 @@
 title: "About Me"
 draft: false
 description: "About Me and Skills"
-layout: "full"
 ---
 ## Founder @ www.cluelesstechnicalwriter.com
 

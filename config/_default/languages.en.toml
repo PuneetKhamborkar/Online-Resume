@@ -10,7 +10,7 @@ title = "Puneet Suresh Khamborkar"
   rtl = false
   dateFormat = "2 January 2006"
   logo = "img/psklogo.png"
-  # secondaryLogo = "img/secondary-logo.png"
+  secondaryLogo = "img/psklogo.png"
   description = "Online Resume"
   copyright = "@Puneet Suresh Khamborkar"
 

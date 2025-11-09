@@ -10,8 +10,10 @@ showBreadcrumbs: false
 showComments: false
 showEdit: false
 description: "certifications"
+wordCount: false
 ---
-
+<div class="max-w-none w-full">
+  <!-- Your HTML grid or timeline -->
 <section class="py-12 px-12 text-center">
   <h2 class="text-4xl font-bold mb-8 bg-clip-text bg-gradient-to-r from-pink-500 to-cyan-400 drop-shadow-[0_0_12px_rgba(255,0,255,0.6)]">
     My Certifications
@@ -68,3 +70,4 @@ description: "certifications"
     </div>
   </div>
 </section>
+</div>
