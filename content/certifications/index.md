@@ -1,6 +1,5 @@
 ---
 title: "Certifications"
-draft: false
 layout: "full"
 showAuthor: false
 showDate: false
@@ -9,17 +8,14 @@ showReadingTime: false
 showBreadcrumbs: false
 showComments: false
 showEdit: false
-description: "certifications"
-wordCount: false
 ---
-<div class="max-w-none w-full">
-  <!-- Your HTML grid or timeline -->
+
+<div class="not-prose w-full">
 <section class="py-12 px-12 text-center">
   <h2 class="text-4xl font-bold mb-8 bg-clip-text bg-gradient-to-r from-pink-500 to-cyan-400 drop-shadow-[0_0_12px_rgba(255,0,255,0.6)]">
     My Certifications
   </h2>
-
-  <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-8 max-w-7xl mx-auto gap-4">
+  <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-8 max-w-7xl mx-auto">
     <div class="hover:scale-105 transition-transform">
       <img src="feature1.jpg" alt="Certification 1" class="rounded-xl shadow-[0_0_15px_rgba(255,0,255,0.4)] hover:shadow-[0_0_25px_rgba(0,255,255,0.7)] transition-all">
       <p class="mt-3 text-center text-sm text-gray-300">Certification 1</p>
@@ -33,7 +29,7 @@ wordCount: false
       <p class="mt-3 text-center text-sm text-gray-300">Certification 3</p>
     </div>
     <div class="hover:scale-105 transition-transform">
-      <img src="feature4.pdf" alt="Certification 4" class="rounded-xl shadow-[0_0_15px_rgba(255,0,255,0.4)] hover:shadow-[0_0_25px_rgba(0,255,255,0.7)] transition-all">
+      <img src="feature4.jpg" alt="Certification 4" class="rounded-xl shadow-[0_0_15px_rgba(255,0,255,0.4)] hover:shadow-[0_0_25px_rgba(0,255,255,0.7)] transition-all">
       <p class="mt-3 text-center text-sm text-gray-300">Certification 4</p>
     </div>
     <div class="hover:scale-105 transition-transform">
@@ -41,7 +37,7 @@ wordCount: false
       <p class="mt-3 text-center text-sm text-gray-300">Certification 5</p>
     </div>
     <div class="hover:scale-105 transition-transform">
-      <img src="feature6.pdf" alt="Certification 6" class="rounded-xl shadow-[0_0_15px_rgba(255,0,255,0.4)] hover:shadow-[0_0_25px_rgba(0,255,255,0.7)] transition-all">
+      <img src="feature6.jpg" alt="Certification 6" class="rounded-xl shadow-[0_0_15px_rgba(255,0,255,0.4)] hover:shadow-[0_0_25px_rgba(0,255,255,0.7)] transition-all">
       <p class="mt-3 text-center text-sm text-gray-300">Certification 6</p>
     </div>
     <div class="hover:scale-105 transition-transform">
@@ -49,15 +45,15 @@ wordCount: false
       <p class="mt-3 text-center text-sm text-gray-300">Certification 7</p>
     </div>
     <div class="hover:scale-105 transition-transform">
-      <img src="feature8.pdf" alt="Certification 8" class="rounded-xl shadow-[0_0_15px_rgba(255,0,255,0.4)] hover:shadow-[0_0_25px_rgba(0,255,255,0.7)] transition-all">
+      <img src="feature8.jpg" alt="Certification 8" class="rounded-xl shadow-[0_0_15px_rgba(255,0,255,0.4)] hover:shadow-[0_0_25px_rgba(0,255,255,0.7)] transition-all">
       <p class="mt-3 text-center text-sm text-gray-300">Certification 8</p>
     </div>
     <div class="hover:scale-105 transition-transform">
-      <img src="feature9.pdf" alt="Certification 9" class="rounded-xl shadow-[0_0_15px_rgba(255,0,255,0.4)] hover:shadow-[0_0_25px_rgba(0,255,255,0.7)] transition-all">
+      <img src="feature9.jpg" alt="Certification 9" class="rounded-xl shadow-[0_0_15px_rgba(255,0,255,0.4)] hover:shadow-[0_0_25px_rgba(0,255,255,0.7)] transition-all">
       <p class="mt-3 text-center text-sm text-gray-300">Certification 9</p>
     </div>
     <div class="hover:scale-105 transition-transform">
-      <img src="feature10.pdf" alt="Certification 10" class="rounded-xl shadow-[0_0_15px_rgba(255,0,255,0.4)] hover:shadow-[0_0_25px_rgba(0,255,255,0.7)] transition-all">
+      <img src="feature10.jpg" alt="Certification 10" class="rounded-xl shadow-[0_0_15px_rgba(255,0,255,0.4)] hover:shadow-[0_0_25px_rgba(0,255,255,0.7)] transition-all">
       <p class="mt-3 text-center text-sm text-gray-300">Certification 10</p>
     </div>
     <div class="hover:scale-105 transition-transform">
