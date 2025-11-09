@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://puneetkhamborkar.github.io/Online-Resume/sitemap.xml
