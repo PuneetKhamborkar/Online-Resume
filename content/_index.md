@@ -8,11 +8,10 @@ description: "About Me and Skills"
 ### About Me
 Experienced technical writer and information developer with 7 years of expertise in technical and creative communications, adept at integrating business analysis skills to deliver user-assistance documentation solutions across IT, Automotive, and Oil & Gas sectors. Seeking opportunities to leverage expertise in technical communications and business analysis to drive transformative initiatives in dynamic environments.
 
-<section class="py-12 px-6 text-center">
+<section class="py-12 px-12 text-center">
   <h2 class="text-4xl font-bold mb-12 bg-clip-text bg-gradient-to-r from-pink-500 to-cyan-400 drop-shadow-[0_0_12px_rgba(255,0,255,0.6)]">
     Skills
   </h2>
-
   <div class="grid grid-cols-1 md:grid-cols-2 gap-10 max-w-7xl mx-auto text-left">
     <div class="space-y-10">
       <div>

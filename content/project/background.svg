@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1920 1080" preserveAspectRatio="none" width="100%" height="100%" style="position:fixed;top:0;left:0;width:100%;height:100%;z-index:-1;">
+  <defs>
+    <!-- Gradient Background -->
+    <linearGradient id="bgGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#050510"></stop>
+      <stop offset="50%" stop-color="#0A0F1F"></stop>
+      <stop offset="100%" stop-color="#0F1F2F"></stop>
+    </linearGradient>
+
+    <!-- Neon Gradient for Waves -->
+    <linearGradient id="neonStroke" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#00FFFF"></stop>
+      <stop offset="50%" stop-color="#FF00FF"></stop>
+      <stop offset="100%" stop-color="#00FF80"></stop>
+    </linearGradient>
+
+    <!-- Glow Effect -->
+    <filter id="glow">
+      <feGaussianBlur stdDeviation="8" result="blur"></feGaussianBlur>
+      <feMerge>
+        <feMergeNode in="blur"></feMergeNode>
+        <feMergeNode in="SourceGraphic"></feMergeNode>
+      </feMerge>
+    </filter>
+  </defs>
+
+  <!-- Gradient Base -->
+  <rect width="100%" height="100%" fill="url(#bgGradient)"></rect>
+
+  <!-- Moving Wave 1 -->
+  <path fill="none" stroke="url(#neonStroke)" stroke-width="3" filter="url(#glow)" opacity="0.6" d="M0 700 Q480 600 960 700 T1920 700">
+    <animate attributeName="d" dur="10s" repeatCount="indefinite" values="
+        M0 700 Q480 600 960 700 T1920 700;
+        M0 700 Q480 800 960 700 T1920 700;
+        M0 700 Q480 600 960 700 T1920 700"></animate>
+  </path>
+
+  <!-- Moving Wave 2 -->
+  <path fill="none" stroke="url(#neonStroke)" stroke-width="2" filter="url(#glow)" opacity="0.4" d="M0 750 Q480 650 960 750 T1920 750">
+    <animate attributeName="d" dur="14s" repeatCount="indefinite" values="
+        M0 750 Q480 650 960 750 T1920 750;
+        M0 750 Q480 850 960 750 T1920 750;
+        M0 750 Q480 650 960 750 T1920 750"></animate>
+  </path>
+
+  <!-- Moving Wave 3 -->
+  <path fill="none" stroke="url(#neonStroke)" stroke-width="1.5" filter="url(#glow)" opacity="0.3" d="M0 800 Q480 700 960 800 T1920 800">
+    <animate attributeName="d" dur="18s" repeatCount="indefinite" values="
+        M0 800 Q480 700 960 800 T1920 800;
+        M0 800 Q480 900 960 800 T1920 800;
+        M0 800 Q480 700 960 800 T1920 800"></animate>
+  </path>
+</svg>

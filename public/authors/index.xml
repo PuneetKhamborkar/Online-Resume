@@ -2,14 +2,14 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Authors on Puneet Suresh Khamborkar</title>
-    <link>https://puneetkhamborkar.github.io/Online-Resume/authors/</link>
+    <link>http://localhost:1313/Online-Resume/authors/</link>
     <description>Recent content in Authors on Puneet Suresh Khamborkar</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <managingEditor>khamborkarpunit@gmail.com (Puneet Suresh Khamborkar)</managingEditor>
     <webMaster>khamborkarpunit@gmail.com (Puneet Suresh Khamborkar)</webMaster>
     <copyright>@Puneet Suresh Khamborkar</copyright>
-    <atom:link href="https://puneetkhamborkar.github.io/Online-Resume/authors/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/Online-Resume/authors/index.xml" rel="self" type="application/rss+xml" />
     
   </channel>
 </rss>
