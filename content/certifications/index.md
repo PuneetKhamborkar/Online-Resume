@@ -1,6 +1,6 @@
 ---
 title: "Certifications"
-layout: "full"
+layout: "single"
 showAuthor: false
 showDate: false
 showPagination: false

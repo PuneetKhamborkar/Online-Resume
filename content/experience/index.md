@@ -1,7 +1,7 @@
 ---
 title: "Experience"
 draft: false
-layout: "full"
+layout: "single"
 showAuthor: false
 showDate: false
 showPagination: false
