@@ -179,5 +179,5 @@ forgejoDefaultServer = "https://v11.next.forgejo.org"
   # adsense = ""
 
 [params]
-  disableCSS = false
+  disableCSS = true
 

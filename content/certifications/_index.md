@@ -1,6 +1,6 @@
 ---
 title: "Certifications"
-layout: "single"
+layout: "full"
 showAuthor: false
 showDate: false
 showPagination: false
@@ -8,9 +8,8 @@ showReadingTime: false
 showBreadcrumbs: false
 showComments: false
 showEdit: false
+showTitle: true
 ---
-
-# 🏆 My Certifications
 
 {{< gallery columns="4" >}}
   <img src="feature1.jpg" class="grid-w33" caption="Certification 1"/>

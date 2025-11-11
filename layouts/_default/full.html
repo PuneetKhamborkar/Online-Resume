@@ -1,0 +1,36 @@
+{{ define "main" }}
+  {{/* 
+    BEAUTIFUL TRUE FULL-PAGE LAYOUT — NO PROSE CONSTRAINTS
+    Works with: layout: "full" 
+    Features: glowing gradient bg, full-width text & media, centered header
+  */}}
+
+  <main class="relative w-full min-h-screen overflow-hidden 
+               bg-gradient-to-br from-slate-950 via-slate-900 to-slate-800 
+               dark:from-slate-900 dark:via-slate-950 dark:to-black 
+               text-gray-100 selection:bg-pink-500/40 selection:text-white">
+
+    <!-- Decorative ambient glows -->
+    <div class="absolute -top-40 -left-40 w-96 h-96 bg-pink-500/30 rounded-full blur-3xl"></div>
+    <div class="absolute bottom-0 right-0 w-96 h-96 bg-cyan-500/20 rounded-full blur-3xl"></div>
+
+    <!-- Content section -->
+    <section class="relative z-10 w-full max-w-8xl mx-auto px-6 md:px-16 py-20">
+      
+      <!-- Title -->
+      {{ if .Title }}
+        <h1 class="text-5xl md:text-6xl font-extrabold mb-12 text-center 
+                   bg-clip-text text-transparent 
+                   bg-gradient-to-r from-pink-500 via-purple-400 to-cyan-400 
+                   drop-shadow-[0_0_15px_rgba(255,0,255,0.5)] animate-pulse">
+          {{ .Title }}
+        </h1>
+      {{ end }}
+
+      <!-- Full content area (no prose) -->
+      <div class="w-full text-gray-200 text-lg leading-relaxed tracking-wide space-y-6">
+        {{ .Content }}
+      </div>
+    </section>
+  </main>
+{{ end }}
