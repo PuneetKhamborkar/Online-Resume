@@ -1,65 +1,30 @@
-html,
-body {
-  margin: 0;
-  padding: 0;
-  height: 100%;
-}
+/****************************************************
+ KEEP BLOWFISH GRID WORKING — DO NOT TOUCH gallery-item WIDTH
+*****************************************************/
 
-body::before {
-  content: "";
-  position: relative;
-  top: 0;
-  left: 0;
-  width: 100vw;
-  height: 100vh;
-  background: url("assets/img/background.svg") repeat center center;
-  background-size: cover;
-  z-index: -1;
-  pointer-events: none;
-}
-
-/* FORCE ALL GALLERY IMAGES TO BE EQUAL SIZE */
-.gallery-item img {
-  width: 250px !important; /* choose any fixed size */
-  height: 250px !important;
-  object-fit: cover !important; /* crop, not stretch */
-  border-radius: 1rem; /* match your design */
-  box-shadow: 0 0 15px rgba(255, 0, 255, 0.4);
-  transition: all 0.3s ease-in-out;
-}
-
-/* hover effect */
-.gallery-item img:hover {
-  transform: scale(1.08);
-  box-shadow: 0 0 25px rgba(0, 255, 255, 0.7);
-}
-
-/* Certification image frame */
-.cert-frame {
-  width: 240px;          /* choose any fixed size */
-  height: 240px;
+/* Make frame effect using inner wrapper, not the gallery container */
+.gallery-item {
+  overflow: hidden !important;
   border-radius: 1rem;
-  overflow: hidden;       /* important: crops image inside frame */
-  background: #111;       /* fallback frame background */
-  margin: 0 auto;         /* center in gallery cell */
+  background: #111;
+  box-shadow: 0 0 15px rgba(255, 0, 255, 0.3);
+  transition: all 0.3s ease;
   display: flex;
   align-items: center;
   justify-content: center;
-  box-shadow: 0 0 15px rgba(255,0,255,0.3);
-  transition: all 0.3s ease;
 }
 
-/* Image inside the frame */
-.cert-frame img {
-  width: 100%;
-  height: 100%;
-  object-fit: cover;      /* guarantees perfect fill and crop */
+/* FORCE ALL IMAGES TO BE UNIFORM */
+.gallery-item img {
+  width: 100% !important;     /* fill container width */
+  height: 260px !important;   /* fixed uniform height */
+  object-fit: cover !important;
   border-radius: inherit;
   display: block;
 }
 
-/* hover effect */
-.cert-frame:hover {
-  transform: scale(1.06);
-  box-shadow: 0 0 25px rgba(0,255,255,0.7);
+/* Hover animation */
+.gallery-item:hover {
+  transform: scale(1.04);
+  box-shadow: 0 0 25px rgba(0, 255, 255, 0.7);
 }

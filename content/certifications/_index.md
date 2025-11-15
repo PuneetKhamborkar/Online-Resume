@@ -11,17 +11,17 @@ showEdit: false
 showTitle: true
 ---
 
-{{<gallery columns="4">}}
-  <div class="cert-frame"><img src="feature1.jpg" alt="Certification 1"></div>
-  <div class="cert-frame"><img src="feature2.jpg" alt="Certification 2"></div>
-  <div class="cert-frame"><img src="feature3.jpg" alt="Certification 3"></div>
-  <div class="cert-frame"><img src="feature4.jpg" alt="Certification 4"></div>
-  <div class="cert-frame"><img src="feature5.jpg" alt="Certification 5"></div>
-  <div class="cert-frame"><img src="feature6.jpg" alt="Certification 6"></div>
-  <div class="cert-frame"><img src="feature7.jpg" alt="Certification 7"></div>
-  <div class="cert-frame"><img src="feature8.jpg" alt="Certification 8"></div>
-  <div class="cert-frame"><img src="feature9.jpg" alt="Certification 9"></div>
-  <div class="cert-frame"><img src="feature10.jpg" alt="Certification 10"></div>
-  <div class="cert-frame"><img src="feature11.jpg" alt="Certification 11"></div>
-  <div class="cert-frame"><img src="feature12.jpg" alt="Certification 12"></div>
-{{</gallery >}}
+{{<gallery columns="3">}}
+  <img src="feature1.jpg" class="gallery-item grid-w33" caption="Certification 1"/>
+  <img src="feature2.jpg" class="gallery-item grid-w33" caption="Certification 2"/>
+  <img src="feature3.jpg" class="gallery-item grid-w33" caption="Certification 3"/>
+  <img src="feature4.jpg" class="gallery-item grid-w33" caption="Certification 4"/>
+  <img src="feature5.jpg" class="gallery-item grid-w33" caption="Certification 5"/>
+  <img src="feature6.jpg" class="gallery-item grid-w33" caption="Certification 6"/>
+  <img src="feature7.jpg" class="gallery-item grid-w33" caption="Certification 7"/>
+  <img src="feature8.jpg" class="gallery-item grid-w33" caption="Certification 8"/>
+  <img src="feature9.jpg" class="gallery-item grid-w33" caption="Certification 9"/>
+  <img src="feature10.jpg" class="gallery-item grid-w33" caption="Certification 10"/>
+  <img src="feature11.jpg" class="gallery-item grid-w33" caption="Certification 11"/>
+  <img src="feature12.jpg" class="gallery-item grid-w33" caption="Certification 12"/>
+{{</gallery>}}
