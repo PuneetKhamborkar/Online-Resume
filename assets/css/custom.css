@@ -1,33 +1,51 @@
-.site-header {
-  background: rgba(4,8,14,0.56);
-  backdrop-filter: blur(6px);
-}
+/****************************************************
+ GLOBAL BACKGROUND OVERRIDE (PRINCESS + BLOWFISH)
+****************************************************/
 
-/* add near the top of your main CSS file */
+/* Force full height */
 html, body {
   min-height: 100%;
   height: 100%;
 }
 
+/* Force your background to override ALL theme backgrounds */
 body {
-  background-image: url("assets/img/background-psk.svg");
-  background-repeat: no-repeat;
-  background-size: cover;            /* covers the whole viewport */
-  background-position: center center;
-  background-attachment: fixed;      /* subtle parallax on some browsers */
-  color: #e6eef8;                    /* example text color to sit on dark bg */
+  background: url("/background-psk.svg") center center / cover no-repeat fixed !important;
+  color: #e6eef8 !important;
 }
 
-/* If the theme uses a hero section with its own background, target it */
-.hero, .site-header, .masthead {
+/* Princess theme sometimes injects its own canvas layer */
+#canvas,
+#canvas canvas {
+  background: transparent !important;
+}
+
+/* Blowfish wrapper backgrounds */
+.page,
+.wrapper,
+.main,
+.site,
+.site-container,
+.site-main,
+#page,
+.content-wrapper {
+  background: transparent !important;
+}
+
+/* Hero / header backgrounds (Blowfish + Princess) */
+.hero,
+.site-header,
+.masthead,
+.header,
+.banner,
+.page-header {
   background: transparent !important;
 }
 
 /****************************************************
- KEEP BLOWFISH GRID WORKING — DO NOT TOUCH gallery-item WIDTH
+ GALLERY — KEEP GRID + APPLY UNIFORM FRAMES
 *****************************************************/
 
-/* Make frame effect using inner wrapper, not the gallery container */
 .gallery-item {
   overflow: hidden !important;
   border-radius: 1rem;
@@ -39,17 +57,26 @@ body {
   justify-content: center;
 }
 
-/* FORCE ALL IMAGES TO BE UNIFORM */
 .gallery-item img {
-  width: 100% !important;     /* fill container width */
-  height: 260px !important;   /* fixed uniform height */
+  width: 100% !important;
+  height: 260px !important;
   object-fit: cover !important;
   border-radius: inherit;
   display: block;
 }
 
-/* Hover animation */
+/* Hover effect */
 .gallery-item:hover {
   transform: scale(1.04);
   box-shadow: 0 0 25px rgba(0, 255, 255, 0.7);
+}
+
+/****************************************************
+ FOOTER — REMOVE ANY RESIDUAL BACKGROUND
+*****************************************************/
+footer,
+.site-footer,
+.footer,
+#footer {
+  background: transparent !important;
 }
