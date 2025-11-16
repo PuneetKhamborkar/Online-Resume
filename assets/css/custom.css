@@ -9,10 +9,14 @@ html, body {
 }
 
 /* Force your background to override ALL theme backgrounds */
-body {
-  background: url("/background-psk.svg") center center / cover no-repeat fixed !important;
-  color: #e6eef8 !important;
+body.custom-bg-override, body {
+  background-image: url("/background-psk.svg") !important;
+  background-size: cover !important;
+  background-position: center center !important;
+  background-repeat: no-repeat !important;
+  background-attachment: fixed !important;
 }
+
 
 /* Princess theme sometimes injects its own canvas layer */
 #canvas,
