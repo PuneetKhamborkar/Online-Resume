@@ -2,24 +2,21 @@
 <html lang="{{ .Site.Language.Lang }}" class="scroll-smooth antialiased">
 <head>
     {{ partial "head.html" . }}
-
-    <!-- Your custom overrides -->
-    {{ partial "custom/head.html" . }}
 </head>
 
 <body class="min-h-screen flex flex-col bg-transparent">
 
-    <!-- 🔥 Inject Dynamic Background -->
+    <!-- Dynamic Background -->
     {{ partial "dynamic-background.html" . }}
 
-    <!-- Blowfish Header -->
+    <!-- Header -->
     {{ partial "header.html" . }}
 
     <main class="flex-1">
         {{ block "main" . }}{{ end }}
     </main>
 
-    <!-- Custom Footer (Blowfish Credit Removed) -->
+    <!-- Custom Footer (No Blowfish Credits) -->
     <footer class="py-6 text-center opacity-60 text-sm">
         {{ if .Site.Params.footer }}
             {{ .Site.Params.footer | safeHTML }}
@@ -30,8 +27,5 @@
 
     <!-- Blowfish Scripts -->
     {{ partial "scripts.html" . }}
-
-    <!-- Custom Scripts -->
-    {{ partial "custom/scripts.html" . }}
 </body>
 </html>
