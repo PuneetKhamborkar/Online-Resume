@@ -1,36 +1,37 @@
 <!DOCTYPE html>
 <html lang="{{ .Site.Language.Lang }}" class="scroll-smooth antialiased">
 <head>
-  {{ partial "head/head.html" . }}
-  {{ partial "head/custom.html" . }}
+    {{ partial "head.html" . }}
+
+    <!-- Your custom overrides -->
+    {{ partial "custom/head.html" . }}
 </head>
 
 <body class="min-h-screen flex flex-col bg-transparent">
 
-  <!-- 🔥 Inject Dynamic Background -->
-  {{ partial "dynamic-background.html" . }}
+    <!-- 🔥 Inject Dynamic Background -->
+    {{ partial "dynamic-background.html" . }}
 
-  <!-- Site Header -->
-  {{ partial "header/header.html" . }}
+    <!-- Blowfish Header -->
+    {{ partial "header.html" . }}
 
-  <!-- Main Content Wrapper -->
-  <main class="flex-1">
-    {{ block "main" . }}
-    {{ end }}
-  </main>
+    <main class="flex-1">
+        {{ block "main" . }}{{ end }}
+    </main>
 
-  <!-- Footer (Custom, NO Blowfish Branding) -->
-  <footer class="py-6 text-center opacity-70 text-sm">
-      {{ if .Site.Params.footer }}
-        {{ .Site.Params.footer | safeHTML }}
-      {{ else }}
-        <p>© {{ now.Format "2006" }} {{ .Site.Title }} — All Rights Reserved.</p>
-      {{ end }}
-  </footer>
+    <!-- Custom Footer (Blowfish Credit Removed) -->
+    <footer class="py-6 text-center opacity-60 text-sm">
+        {{ if .Site.Params.footer }}
+            {{ .Site.Params.footer | safeHTML }}
+        {{ else }}
+            © {{ now.Format "2006" }} {{ .Site.Title }}
+        {{ end }}
+    </footer>
 
-  <!-- Scripts -->
-  {{ partial "scripts/scripts.html" . }}
-  {{ partial "scripts/custom.html" . }}
+    <!-- Blowfish Scripts -->
+    {{ partial "scripts.html" . }}
 
+    <!-- Custom Scripts -->
+    {{ partial "custom/scripts.html" . }}
 </body>
 </html>
