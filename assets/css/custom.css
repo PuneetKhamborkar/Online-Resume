@@ -1,3 +1,28 @@
+.site-header {
+  background: rgba(4,8,14,0.56);
+  backdrop-filter: blur(6px);
+}
+
+/* add near the top of your main CSS file */
+html, body {
+  min-height: 100%;
+  height: 100%;
+}
+
+body {
+  background-image: url("assets/img/background-psk.svg");
+  background-repeat: no-repeat;
+  background-size: cover;            /* covers the whole viewport */
+  background-position: center center;
+  background-attachment: fixed;      /* subtle parallax on some browsers */
+  color: #e6eef8;                    /* example text color to sit on dark bg */
+}
+
+/* If the theme uses a hero section with its own background, target it */
+.hero, .site-header, .masthead {
+  background: transparent !important;
+}
+
 /****************************************************
  KEEP BLOWFISH GRID WORKING — DO NOT TOUCH gallery-item WIDTH
 *****************************************************/
