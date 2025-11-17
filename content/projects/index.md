@@ -8,6 +8,7 @@ showBreadcrumbs: false
 showComments: false
 showEdit: false
 showTitle: true
+layout: "simple"
 ---
 
 # Figma
