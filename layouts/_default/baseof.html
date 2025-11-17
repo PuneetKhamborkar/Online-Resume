@@ -1,31 +1,128 @@
 <!DOCTYPE html>
-<html lang="{{ .Site.Language.Lang }}" class="scroll-smooth antialiased">
+<html lang="{{ with .Site.Language }}{{ .Lang }}{{ else }}en{{ end }}" class="scroll-smooth antialiased">
 <head>
+  {{/* Prefer theme-provided head partial when available */}}
+  {{ if partialExists "head.html" }}
     {{ partial "head.html" . }}
+  {{ else if partialExists "components/head.html" }}
+    {{ partial "components/head.html" . }}
+  {{ else }}
+    {{/* Fallback minimal head to keep site building */}}
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>{{ with .Title }}{{ . }} | {{ end }}{{ .Site.Title }}</title>
+    {{/* If you have a main CSS file emitted by Hugo Pipes, you can include it here:
+         <link rel="stylesheet" href="{{ "css/styles.css" | relURL }}"> */}}
+  {{ end }}
+
+  {{/* Optional: place any small head overrides here (safe area) */}}
+  <style>
+    /* minimal defaults so fallback header/footer look OK */
+    :root { color-scheme: light dark; }
+    body { margin:0; font-family: Inter, system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial; }
+  </style>
 </head>
 
-<body class="min-h-screen flex flex-col bg-transparent">
+<body class="min-h-screen relative">
 
-    <!-- Dynamic Background -->
+  {{/* ------------------------------
+       Dynamic background injection
+       Try theme partial first; if missing, inline a fallback so background always works
+       ------------------------------ */}}
+  {{ if partialExists "dynamic-background.html" }}
     {{ partial "dynamic-background.html" . }}
+  {{ else if partialExists "partials/dynamic-background.html" }}
+    {{ partial "partials/dynamic-background.html" . }}
+  {{ else }}
+    {{/* Inline fallback dynamic background (safe, lightweight) */}}
+    <div id="psk-bg" aria-hidden="true"></div>
+    <style>
+      #psk-bg {
+        position: fixed; inset: 0; z-index: -1; pointer-events: none;
+        background: linear-gradient(120deg,#1e1b4b 0%, #312e81 35%, #0ea5e9 65%, #14b8a6 100%);
+        background-size: 400% 400%;
+        animation: psk-soft-gradient 18s ease infinite;
+        opacity: 0.62;
+      }
+      @keyframes psk-soft-gradient { 0%{background-position:0% 50%}50%{background-position:100% 50%}100%{background-position:0% 50%} }
 
-    <!-- Header -->
+      /* floating blobs (fallback) */
+      .psk-blob { position:absolute; width:420px; height:420px; border-radius:50%; filter:blur(110px); opacity:.28; mix-blend-mode:screen; }
+      #psk-b1{background:#7c3aed; top:6%; left:6%; animation:psk-float 18s infinite ease-in-out;}
+      #psk-b2{background:#14b8a6; top:52%; left:68%; animation:psk-float 20s infinite ease-in-out; animation-delay:-6s;}
+      #psk-b3{background:#ef4444; top:70%; left:26%; animation:psk-float 22s infinite ease-in-out; animation-delay:-10s;}
+      @keyframes psk-float {0%{transform:translate(0,0) scale(1)}50%{transform:translate(60px,-40px) scale(1.2)}100%{transform:translate(0,0) scale(1)}}
+    </style>
+    <script>
+      document.addEventListener("DOMContentLoaded", function () {
+        try {
+          var bg = document.getElementById("psk-bg");
+          ["psk-b1","psk-b2","psk-b3"].forEach(function(id){ var d=document.createElement("div"); d.className='psk-blob'; d.id=id; bg.appendChild(d);});
+        } catch(e){ /* silent fallback */ }
+      });
+    </script>
+  {{ end }}
+
+  {{/* ------------------------------
+       Header (try multiple likely partial names, fall back to a small inline header)
+       ------------------------------ */}}
+  {{ if partialExists "header.html" }}
     {{ partial "header.html" . }}
+  {{ else if partialExists "components/header.html" }}
+    {{ partial "components/header.html" . }}
+  {{ else if partialExists "partials/header.html" }}
+    {{ partial "partials/header.html" . }}
+  {{ else }}
+    <header role="banner" style="padding:1rem 1.25rem; background:transparent;">
+      <div style="max-width:1200px;margin:0 auto;display:flex;align-items:center;gap:1rem;">
+        <div style="font-weight:700;font-size:1.05rem">{{ .Site.Title }}</div>
+        <nav aria-label="Main nav" style="margin-left:auto;">
+          {{/* optional simple nav from site menus, safe if menus missing */}}
+          {{ with .Site.Menus.main }}
+            {{ range . }}
+              <a href="{{ .URL }}" style="margin-left:1rem; text-decoration:none; color:inherit;">{{ .Name }}</a>
+            {{ end }}
+          {{ end }}
+        </nav>
+      </div>
+    </header>
+  {{ end }}
 
-    <main class="flex-1">
-        {{ block "main" . }}{{ end }}
-    </main>
+  {{/* ------------------------------
+       Main content block (standard)
+       ------------------------------ */}}
+  <main id="main" class="flex-1">
+    {{ block "main" . }}{{ end }}
+  </main>
 
-    <!-- Custom Footer (No Blowfish Credits) -->
-    <footer class="py-6 text-center opacity-60 text-sm">
-        {{ if .Site.Params.footer }}
-            {{ .Site.Params.footer | safeHTML }}
-        {{ else }}
-            © {{ now.Format "2006" }} {{ .Site.Title }}
-        {{ end }}
+  {{/* ------------------------------
+       Footer (try theme partials, fallback safe footer)
+       ------------------------------ */}}
+  {{ if partialExists "footer.html" }}
+    {{ partial "footer.html" . }}
+  {{ else if partialExists "components/footer.html" }}
+    {{ partial "components/footer.html" . }}
+  {{ else }}
+    <footer role="contentinfo" style="padding:1.25rem 1rem; text-align:center; opacity:0.7; font-size:0.95rem;">
+      {{ if .Site.Params.footer }}
+        {{ .Site.Params.footer | safeHTML }}
+      {{ else }}
+        © {{ now.Format "2006" }} {{ .Site.Title }} — All rights reserved.
+      {{ end }}
     </footer>
+  {{ end }}
 
-    <!-- Blowfish Scripts -->
+  {{/* ------------------------------
+       Scripts: prefer theme scripts if present, otherwise safe minimal script include
+       ------------------------------ */}}
+  {{ if partialExists "scripts.html" }}
     {{ partial "scripts.html" . }}
+  {{ else if partialExists "components/scripts.html" }}
+    {{ partial "components/scripts.html" . }}
+  {{ else }}
+    {{/* minimal script fallback; keeps Hugo happy */}}
+    <script>/* no-op fallback script */</script>
+  {{ end }}
+
 </body>
 </html>
