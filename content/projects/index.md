@@ -9,6 +9,7 @@ showBreadcrumbs: false
 showComments: false
 showEdit: false
 showTitle: true
+disable_prose: true
 ---
 
 # Figma

@@ -7,8 +7,8 @@ showPagination: false
 showReadingTime: false
 showBreadcrumbs: false
 showComments: false
+disable_prose: true
 ---
-{{<fullscreen>}}
 
 {{<experience title="💼 Professional Experience">}}
 Senior Technical Writer | Nitor Infotech Pvt Ltd | Nov 2024 – Present | Created product documentation, feature content, and release notes using a docs-as-code workflow with Git and VitePress. Developed style guides using Vale, authored API and portal documentation, and conducted UAT for web apps.
@@ -18,5 +18,3 @@ Assistant Director & Screenwriter | Freelancing | Jul 2018 – Jan 2020 | Pitche
 Site Engineer | Micro Systems | Dec 2017 – Jun 2018 | Developed detailed project plans emphasizing safety and compliance, led BMS implementation teams, and ensured EPC standards adherence.
 Project Engineer | Universal Controls | Jul 2017 – Nov 2017 | Oversaw detailed engineering and aligned design deliverables with customer requirements.
 {{</experience>}}
-
-{{</fullscreen>}}

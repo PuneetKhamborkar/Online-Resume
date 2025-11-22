@@ -9,9 +9,8 @@ showBreadcrumbs: false
 showComments: false
 showEdit: false
 showTitle: true
+disable_prose: true
 ---
-
-{{<fullscreen>}}
 
 This is a list of my certificates
 
@@ -29,5 +28,3 @@ This is a list of my certificates
   <img src="feature11.jpg" class="gallery-item grid-w33" caption="Certification 11"/>
   <img src="feature12.jpg" class="gallery-item grid-w33" caption="Certification 12"/>
 {{</gallery>}}
-
-{{</fullscreen>}}
