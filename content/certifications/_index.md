@@ -1,6 +1,6 @@
 ---
 title: "Certifications"
-layout: "bgsimple"
+layout: "thumbnails"
 showAuthor: false
 showDate: false
 showPagination: false

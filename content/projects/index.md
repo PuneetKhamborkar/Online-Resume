@@ -1,6 +1,6 @@
 ---
 title: "Projects"
-layout: "bgsimple"
+layout: "big"
 showAuthor: false
 showDate: false
 showPagination: false
