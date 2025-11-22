@@ -1,5 +1,6 @@
 ---
 title: "Projects"
+layout: "bgsimple"
 showAuthor: false
 showDate: false
 showPagination: false
@@ -8,7 +9,6 @@ showBreadcrumbs: false
 showComments: false
 showEdit: false
 showTitle: true
-layout: "simple"
 ---
 
 # Figma

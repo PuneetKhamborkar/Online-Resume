@@ -1,0 +1,40 @@
+{{ define "main" }}
+<div style="max-width: 800px; margin: auto; padding: 2rem;">
+  <h1>{{ .Title }}</h1>
+  {{ .Content }}
+</div>
+{{ end }}
+{{ define "main" }}
+<style>
+  body {
+    background: url("/assets/background.png") no-repeat center center fixed;
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+  }
+
+  /* Disable Blowfish prose limits */
+  main.prose,
+  .prose,
+  .max-w-screen-md,
+  .mx-auto {
+    max-width: 100% !important;
+    width: 100% !important;
+    padding: 0 !important;
+    margin: 0 !important;
+  }
+
+  /* Simple full-width content container */
+  .page-wrap {
+    padding: 2rem;
+    color: #fff; /* Optional - readable text on dark backgrounds */
+    backdrop-filter: blur(4px); /* Softens text contrast */
+  }
+</style>
+
+<div class="page-wrap">
+  <h1>{{ .Title }}</h1>
+  {{ .Content }}
+</div>
+
+{{ end }}
