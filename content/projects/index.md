@@ -1,6 +1,6 @@
 ---
 title: "Projects"
-layout: background
+layout: "background"
 showAuthor: false
 showDate: false
 showPagination: false

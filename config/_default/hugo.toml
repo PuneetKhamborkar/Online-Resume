@@ -71,3 +71,6 @@ enableEmoji = true
 [markup.goldmark.renderer]
 unsafe = true
 
+[renderer]
+  wrapInProse = false
+
