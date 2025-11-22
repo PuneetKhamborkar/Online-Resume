@@ -1,4 +1,33 @@
 {{ define "main" }}
+<style>
+  body {
+    background: url("/assets/background.png") no-repeat center center fixed;
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+  }
+
+  /* Disable Blowfish prose limits */
+  main.prose,
+  .prose,
+  .max-w-screen-md,
+  .mx-auto {
+    max-width: 100% !important;
+    width: 100% !important;
+    padding-bottom: 0 !important;
+    padding-top: 0 !important;
+    margin: 0 !important;
+  }
+
+  /* Simple full-width content container */
+  .page-wrap {
+    padding: 2rem;
+    color: #fff; /* Optional */
+    backdrop-filter: blur(4px); /* Optional glass effect */
+    max-width: 800px;
+    margin: auto;
+  }
+</style>
 <main class="max-w-full mx-auto py-10">
 
   {{ if .Title }}

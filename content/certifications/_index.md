@@ -1,6 +1,6 @@
 ---
 title: "Certifications"
-layout: "thumbnails"
+layout: "hero"
 showAuthor: false
 showDate: false
 showPagination: false
@@ -10,6 +10,8 @@ showComments: false
 showEdit: false
 showTitle: true
 ---
+
+This is a list of my certificates
 
 {{<gallery columns="3">}}
   <img src="feature1.jpg" class="gallery-item grid-w33" caption="Certification 1"/>
