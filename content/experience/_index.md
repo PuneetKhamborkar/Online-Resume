@@ -1,6 +1,5 @@
 ---
 title: "Experience"
-layout: "simple"
 showAuthor: false
 showDate: false
 showPagination: false

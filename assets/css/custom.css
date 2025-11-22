@@ -10,7 +10,7 @@ html, body {
 
 /* Force your background to override ALL theme backgrounds */
 body.custom-bg-override, body {
-  background-image: url("static/background-psk.svg") !important;
+  background-image: "background-psk.svg" !important;
   background-size: cover !important;
   background-position: center center !important;
   background-repeat: no-repeat !important;
