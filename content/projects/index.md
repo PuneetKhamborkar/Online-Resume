@@ -1,6 +1,6 @@
 ---
 title: "Projects"
-layout: "background"
+layout: background
 showAuthor: false
 showDate: false
 showPagination: false
@@ -9,7 +9,6 @@ showBreadcrumbs: false
 showComments: false
 showEdit: false
 showTitle: true
-disable_prose: true
 ---
 
 # Figma

@@ -1,13 +1,12 @@
 ---
 title: "Experience"
-layout: "background"
+layout: background
 showAuthor: false
 showDate: false
 showPagination: false
 showReadingTime: false
 showBreadcrumbs: false
 showComments: false
-disable_prose: true
 ---
 
 {{<experience title="💼 Professional Experience">}}

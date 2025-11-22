@@ -1,0 +1,32 @@
+{{ define "main" }}
+
+<style>
+  body {
+    background: url("/assets/background.jpg") center center fixed;
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+  }
+</style>
+
+<article class="w-full">   <!-- full width -->
+  <header>
+    {{ if .Params.showBreadcrumbs | default (.Site.Params.article.showBreadcrumbs | default false) }}
+      {{ partial "breadcrumbs.html" . }}
+    {{ end }}
+    <h1 class="mt-0 text-4xl font-extrabold text-neutral-900 dark:text-neutral">
+      {{ .Title | emojify }}
+    </h1>
+  </header>
+
+  <!-- remove prose/max-width -->
+  <section class="mt-6 w-full">
+    {{ .Content }}
+  </section>
+
+  <footer class="pt-8">
+    {{ partial "sharing-links.html" . }}
+  </footer>
+</article>
+
+{{ end }}
