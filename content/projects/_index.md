@@ -10,7 +10,6 @@ showComments: false
 showEdit: false
 showTitle: true
 ---
-
 # Figma
 My Figma Projects
 

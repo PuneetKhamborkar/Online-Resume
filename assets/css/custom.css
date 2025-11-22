@@ -8,6 +8,11 @@ html, body {
   height: 100%;
 }
 
+.prose {
+  max-width: 100% !important;
+  width: 100%;
+}
+
 /* Force your background to override ALL theme backgrounds */
 body.custom-bg-override, body {
   background-image: url("/assets/background.png") !important;

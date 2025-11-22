@@ -10,7 +10,6 @@ showComments: false
 showEdit: false
 showTitle: true
 ---
-
 This is a list of my certificates
 
 {{<gallery columns="3">}}
