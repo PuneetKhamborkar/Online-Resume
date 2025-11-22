@@ -1,8 +1,10 @@
-# -- Markup --
-# These settings are required for the theme to function.
+# ============================
+# Markup Configuration (Blowfish)
+# ============================
 
 [goldmark]
   [goldmark.parser]
+    attribute = true
     wrapStandAloneImageWithinParagraph = false
 
   [goldmark.renderer]
@@ -22,5 +24,8 @@
   startLevel = 2
   endLevel = 4
 
+# ============================
+# DISABLE PROSE SITE-WIDE
+# ============================
 [renderer]
   wrapInProse = false
