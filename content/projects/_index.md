@@ -9,6 +9,7 @@ showBreadcrumbs: false
 showComments: false
 showEdit: false
 showTitle: true
+showTableOfContents: true
 ---
 <style>
 main .prose,
@@ -19,9 +20,40 @@ main .prose,
 }
 </style>
 
-# Figma
-My Figma Projects
+## Product Owner Project
+I created a PRD and Figma wireframe for Mandi Auction House, it is an app, which helps farmers and traders perform india-wide auctions under one single platform without any hassle.
 
-# Business Analysis
-My BA Projects
+### Figma
+Mandi Auction House Wireframe
+
+<iframe style="border: 1px solid rgba(0, 0, 0, 0.1);" width="800" height="450" src="https://embed.figma.com/proto/1i3t9KMgX8oH5VgrEWbvNU/MAH-Loop?scaling=scale-down&content-scaling=fixed&page-id=0%3A1&node-id=60-164&starting-point-node-id=60%3A164&embed-host=share" allowfullscreen>
+</iframe>
+
+### Product Requirement Document
+Mandi Auction House PRD
+
+<iframe 
+  src="assets\documents\Mandi Auction House PRD.pdf"
+  style="width:100%; height:800px; border:none;"
+>Mandi Auction House PRD</iframe>
+
+## Business Analyst Project
+I created a Business Requirement Document for a Restaurant, which was initially struggling with its business. After analysing its business, I tried to provide a solution.
+
+<iframe 
+  src="assets\documents\Restaurant Management System_Simplilearn BA Capstone Project_PSK.pdf"
+  style="width:100%; height:800px; border:none;"
+>Restaurant Management System</iframe>
+
+## Technical Writer Project
+I created a user manual on how to use Chip Creator<superscript>TM</superscript>. It is a product used by designers to create Integrated Circuit (IC) chip layouts.
+
+<iframe 
+  src="assets\documents\Chip Creator TM.pdf"
+  style="width:100%; height:800px; border:none;"
+>Chip Creator TM</iframe>
+
+
+
+
 

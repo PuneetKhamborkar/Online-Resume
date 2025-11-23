@@ -10,7 +10,6 @@ showComments: false
 showEdit: false
 showTitle: true
 showTableOfContents: true
-recentArticles: false
 ---
 
 ## These are my professional certificates
@@ -59,5 +58,3 @@ main .prose,
 
 ### SQL Training
   <img src="feature12.jpg" class="gallery-item" caption="Certification 12"/>
-
-
