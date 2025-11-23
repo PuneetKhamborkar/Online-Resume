@@ -85,16 +85,3 @@ footer,
   background: transparent !important;
 }
 
-/* This will target all elements within the main content area and reset their font-family */
-.prose, .prose p, .prose h1, .prose h2, .prose h3, .prose h4, .prose h5, .prose h6, .prose ul, .prose ol {
-    /* Add your desired styling here to override the theme's default "prose" styles */
-    /* For example, to remove specific font sizing or line height: */
-    font-size: inherit !important;
-    line-height: inherit !important;
-    /* You may need to experiment with other properties like color, margin, etc. */
-}
-
-/* Alternatively, if you want to completely remove Tailwind's typography plugin styles */
-/* from a specific container, you can use the 'not-prose' class in your layouts, */
-/* but if you can't edit the layouts easily, the above is a CSS solution. */
-

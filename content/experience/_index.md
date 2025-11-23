@@ -17,6 +17,8 @@ main .prose,
 }
 </style>
 
+## Total Experience: 7+ Years
+
 {{<experience title="💼 Professional Experience">}}
 Senior Technical Writer | Nitor Infotech Pvt Ltd | Nov 2024 – Present | Created product documentation, feature content, and release notes using a docs-as-code workflow with Git and VitePress. Developed style guides using Vale, authored API and portal documentation, and conducted UAT for web apps.
 Engineer | L&T Technology Services Ltd | Jul 2021 – Nov 2024 | Authored 15+ user-assistance materials across IT, Automotive, and Oil & Gas. Reviewed 100+ documents, trained a writing team (↑ 30 % productivity), implemented Agile workflows (↑ 40 % efficiency), and introduced Power BI dashboards (↓ 66 % query time).
