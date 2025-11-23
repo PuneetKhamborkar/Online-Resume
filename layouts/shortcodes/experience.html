@@ -1,10 +1,4 @@
-{{/* 
-  Shortcode: experience
-  Usage:
-  {{< experience title="Professional Experience" >}}
-  Role | Company | Period | Description
-  {{< /experience >}}
-*/}}
+{{/* Experience shortcode — ignores ALL blank lines including Windows CRLF */}}
 
 <section class="relative py-20 text-gray-100 bg-gradient-to-br from-slate-950 via-slate-900 to-slate-800">
   <h2 class="text-5xl font-extrabold text-center mb-16 
@@ -14,9 +8,16 @@
   </h2>
 
   <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-10 max-w-7xl mx-auto px-6">
-    {{ $entries := split (trim .Inner " \n") "\n" }}
-    {{ range $i, $line := $entries }}
-      {{ if eq (trim $line " ") "" }}{{ continue }}{{ end }}
+
+    {{/* Split into lines safely */}}
+    {{ $raw := .Inner | replaceRE "\r" "" }}         {{/* Remove Windows CR */}}
+    {{ $lines := split (trim $raw "\n ") "\n" }}     {{/* Remove edges */}}
+
+    {{ range $i, $line := $lines }}
+      {{ if eq (trim $line " ") "" }}                {{/* Skip pure blank lines */}}
+        {{ continue }}
+      {{ end }}
+
       {{ $parts := split $line "|" }}
       {{ $role := trim (index $parts 0) " " }}
       {{ $company := trim (index $parts 1) " " }}
@@ -36,5 +37,6 @@
         </div>
       </div>
     {{ end }}
+
   </div>
 </section>

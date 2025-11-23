@@ -1,0 +1,27 @@
+{{ define "main" }}
+
+<style>
+  /* 1️⃣ REMOVE max-width limit */
+  .prose {
+    max-width: 100% !important;
+    width: 100% !important;
+  }
+
+  /* 2️⃣ BACKGROUND applied once */
+  body {
+    background: url("/assets/background.png") center center fixed;
+    background-size: cover;
+  }
+</style>
+
+{{ partial "page/single/hero.html" . }}
+{{ partial "page/single/toc.html" . }}
+
+<div class="prose mt-6">
+  {{ .Content }}
+</div>
+
+{{ partial "page/single/pager.html" . }}
+{{ partial "page/single/comments.html" . }}
+
+{{ end }}

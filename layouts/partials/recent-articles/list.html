@@ -1,0 +1,21 @@
+{{ $pages := .Site.RegularPages }}
+{{ $pages = where $pages "Params.hidden" "!=" true }}
+{{ $pages = where $pages "Params.showRecent" "!=" false }}
+{{ $pages = $pages.ByDate.Reverse }}
+
+<div class="recent-articles">
+  {{ if gt (len $pages) 0 }}
+    <ul class="recent-articles-list">
+      {{ range first 5 $pages }}
+        <li>
+          <a href="{{ .RelPermalink }}">
+            <h4>{{ .Title }}</h4>
+            <span class="date">{{ .Date.Format "Jan 2, 2006" }}</span>
+          </a>
+        </li>
+      {{ end }}
+    </ul>
+  {{ else }}
+    <!-- Removed default message: "There are no articles to list here yet." -->
+  {{ end }}
+</div>
