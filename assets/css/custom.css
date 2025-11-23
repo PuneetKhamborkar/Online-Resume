@@ -8,11 +8,6 @@ html, body {
   height: 100%;
 }
 
-.prose {
-  max-width: 100% !important;
-  width: 100%;
-}
-
 /* Force your background to override ALL theme backgrounds */
 body.custom-bg-override, body {
   background-image: url("/assets/background.png") !important;
@@ -61,17 +56,17 @@ body.custom-bg-override, body {
   background: #111;
   box-shadow: 0 0 15px rgba(255, 0, 255, 0.3);
   transition: all 0.3s ease;
-  display: flex;
+  display: grid;
   align-items: center;
   justify-content: center;
 }
 
 .gallery-item img {
-  width: 100% !important;
-  height: 260px !important;
+  width: 33% !important;
+  height: 33% !important;
   object-fit: cover !important;
   border-radius: inherit;
-  display: block;
+  display: inline;
 }
 
 /* Hover effect */
@@ -89,3 +84,17 @@ footer,
 #footer {
   background: transparent !important;
 }
+
+/* This will target all elements within the main content area and reset their font-family */
+.prose, .prose p, .prose h1, .prose h2, .prose h3, .prose h4, .prose h5, .prose h6, .prose ul, .prose ol {
+    /* Add your desired styling here to override the theme's default "prose" styles */
+    /* For example, to remove specific font sizing or line height: */
+    font-size: inherit !important;
+    line-height: inherit !important;
+    /* You may need to experiment with other properties like color, margin, etc. */
+}
+
+/* Alternatively, if you want to completely remove Tailwind's typography plugin styles */
+/* from a specific container, you can use the 'not-prose' class in your layouts, */
+/* but if you can't edit the layouts easily, the above is a CSS solution. */
+

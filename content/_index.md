@@ -1,6 +1,7 @@
 ---
 title: "About Me"
 description: "About Me and Skills"
+layout: "profile"
 ---
 ## Founder @ www.cluelesstechnicalwriter.com
 
