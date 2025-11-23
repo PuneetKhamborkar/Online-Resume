@@ -11,14 +11,6 @@ showEdit: false
 showTitle: true
 showTableOfContents: true
 ---
-<style>
-main .prose,
-.prose,
-.prose * {
-  max-width: 100% !important;
-  width: 100% !important;
-}
-</style>
 
 ## Product Owner Project
 I created a PRD and Figma wireframe for Mandi Auction House, it is an app, which helps farmers and traders perform india-wide auctions under one single platform without any hassle.
@@ -26,31 +18,31 @@ I created a PRD and Figma wireframe for Mandi Auction House, it is an app, which
 ### Figma
 Mandi Auction House Wireframe
 
-<iframe style="border: 1px solid rgba(0, 0, 0, 0.1);" width="800" height="450" src="https://embed.figma.com/proto/1i3t9KMgX8oH5VgrEWbvNU/MAH-Loop?scaling=scale-down&content-scaling=fixed&page-id=0%3A1&node-id=60-164&starting-point-node-id=60%3A164&embed-host=share" allowfullscreen>
+<iframe style="border: 1px solid rgba(0, 0, 0, 0.1);" width="450" height="450" src="https://embed.figma.com/proto/1i3t9KMgX8oH5VgrEWbvNU/MAH-Loop?scaling=scale-down&content-scaling=fixed&page-id=0%3A1&node-id=60-164&starting-point-node-id=60%3A164&embed-host=share" allowfullscreen>
 </iframe>
 
 ### Product Requirement Document
 Mandi Auction House PRD
 
 <iframe 
-  src="assets\documents\Mandi Auction House PRD.pdf"
-  style="width:100%; height:800px; border:none;"
+  src="Mandi-Auction-House-PRD.pdf"
+  style="width:450px; height:450px; border:none;"
 >Mandi Auction House PRD</iframe>
 
 ## Business Analyst Project
 I created a Business Requirement Document for a Restaurant, which was initially struggling with its business. After analysing its business, I tried to provide a solution.
 
 <iframe 
-  src="assets\documents\Restaurant Management System_Simplilearn BA Capstone Project_PSK.pdf"
-  style="width:100%; height:800px; border:none;"
+  src="Restaurant-Management-System.pdf"
+  style="width:450px; height:450px; border:none;"
 >Restaurant Management System</iframe>
 
 ## Technical Writer Project
 I created a user manual on how to use Chip Creator<superscript>TM</superscript>. It is a product used by designers to create Integrated Circuit (IC) chip layouts.
 
 <iframe 
-  src="assets\documents\Chip Creator TM.pdf"
-  style="width:100%; height:800px; border:none;"
+  src="/Chip-Creator-TM.pdf"
+  style="width:450px; height:450px; border:none;"
 >Chip Creator TM</iframe>
 
 
