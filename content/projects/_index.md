@@ -38,7 +38,7 @@ showTableOfContents: true
 >Restaurant Management System</iframe>
 
 ## 3. Technical Writer Project
-**I created a user manual on how to use Chip Creator<superscript>TM</superscript>. It is a product used by designers to create Integrated Circuit (IC) chip layouts.**
+**I created a user manual on how to use Chip Creator<sup>TM</sup>. It is a product used by designers to create Integrated Circuit (IC) chip layouts.**
 
 <iframe 
   src="Chip-Creator-TM.pdf"
