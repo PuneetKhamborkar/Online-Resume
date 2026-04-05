@@ -22,21 +22,26 @@ main .prose,
 }
 </style> -->
 
+### PGP in Business Analysis
+  <img src="feature9.jpg" class="gallery-item" caption="Certification 9"/>
 
-### Learn API Technical Writing 1
-  <img src="feature1.jpg" class="gallery-item" caption="Certification 1"/>
+### Technical Writing: Software Doc
+  <img src="feature11.jpg" class="gallery-item" caption="Certification 11"/>
 
-### Learn API Technical Writing 2
-  <img src="feature2.jpg" class="gallery-item" caption="Certification 2"/>
-
-### Technical Writing: API Doc
-  <img src="feature3.jpg" class="gallery-item" caption="Certification 3"/>
+### Business Analysis Masterclass
+  <img src="feature5.jpg" class="gallery-item" caption="Certification 5"/>
 
 ### PGP BA Agile Scrum Master
   <img src="feature4.jpg" class="gallery-item" caption="Certification 4"/>
 
-### Business Analysis Masterclass
-  <img src="feature5.jpg" class="gallery-item" caption="Certification 5"/>
+### Technical Writing: API Doc
+  <img src="feature3.jpg" class="gallery-item" caption="Certification 3"/>
+
+### Power BI
+  <img src="feature8.jpg" class="gallery-item" caption="Certification 8"/>
+
+### Statistics Essential
+  <img src="feature10.jpg" class="gallery-item" caption="Certification 10"/>
 
 ### PG BA Data Analysis with Python
   <img src="feature6.jpg" class="gallery-item" caption="Certification 6"/>
@@ -44,17 +49,11 @@ main .prose,
 ### ChatGPT for Tech Writing
   <img src="feature7.jpg" class="gallery-item" caption="Certification 7"/>
 
-### Power BI
-  <img src="feature8.jpg" class="gallery-item" caption="Certification 8"/>
+### Learn API Technical Writing 1
+  <img src="feature1.jpg" class="gallery-item" caption="Certification 1"/>
 
-### PGP in Business Analysis
-  <img src="feature9.jpg" class="gallery-item" caption="Certification 9"/>
-
-### Statistics Essential
-  <img src="feature10.jpg" class="gallery-item" caption="Certification 10"/>
-
-### Technical Writing: Software Doc
-  <img src="feature11.jpg" class="gallery-item" caption="Certification 11"/>
+### Learn API Technical Writing 2
+  <img src="feature2.jpg" class="gallery-item" caption="Certification 2"/>
 
 ### SQL Training
   <img src="feature12.jpg" class="gallery-item" caption="Certification 12"/>
