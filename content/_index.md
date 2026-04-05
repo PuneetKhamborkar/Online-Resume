@@ -130,7 +130,7 @@ Information Developer & Certified Business Analyst with 7+ years of experience e
 /* Refined Header Style */
 .skill-header {
   @apply text-2xl font-bold mb-8 pb-3 border-b flex items-center gap-3 uppercase tracking-wide;
-  text-shadow: 0 0 10px currentColor;
+  
 }
 
 /* Badge Spacing & Visuals */
