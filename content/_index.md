@@ -6,7 +6,7 @@ layout: "profile"
 ## Founder @ [www.cluelesstechnicalwriter.com](http://www.cluelesstechnicalwriter.com)
 
 ### About Me
-Information Developer & Certified Business Analyst with 7+ years of experience engineering user-centric content for complex technical ecosystems. Qualified Product Owner with deep coding proficiency and a focus on AI-augmented documentation architecture. Expert at translating high-level business requirements into technical roadmaps and leveraging AI to optimize the product lifecycle. A hybrid specialist who bridges the gap between engineering, product strategy, and the end-user.
+Information Developer & Certified Business Analyst with 7+ years of experience engineering user-centric content for complex technical ecosystems. Qualified Product Owner with good coding proficiency and a focus on AI-augmented documentation architecture. Expert at translating high-level business requirements into technical roadmaps and leveraging AI to optimize the product lifecycle. A hybrid specialist who bridges the gap between engineering, product strategy, and the end-user.
 
 <section class="py-12 px-12 text-center">
   <h2 class="text-4xl font-bold mb-12 bg-clip-text bg-gradient-to-r from-pink-500 to-cyan-400 drop-shadow-[0_0_12px_rgba(255,0,255,0.6)]">
@@ -45,19 +45,7 @@ Information Developer & Certified Business Analyst with 7+ years of experience e
           <span class="neon-badge border-cyan-500">HTML/CSS</span>
           <span class="neon-badge border-cyan-500">REST & SOAP APIs</span>
           <span class="neon-badge border-cyan-500">Postman</span>
-          <span class="neon-badge border-cyan-500">SwaggerHub</span>
-        </div>
-      </div>
-      <div>
-        <h3 class="skill-header text-purple-400 border-purple-500/30">
-          <span>⚙️</span> Data Engineering
-        </h3>
-        <div class="flex flex-wrap gap-4">
-          <span class="neon-badge border-purple-500">Snowflake</span>
-          <span class="neon-badge border-purple-500">Databricks</span>
-          <span class="neon-badge border-purple-500">Apache Spark</span>
-          <span class="neon-badge border-purple-500">ETL Pipelines</span>
-          <span class="neon-badge border-purple-500">Data Modelling</span>
+          <span class="neon-badge border-cyan-500">Swagger</span>
         </div>
       </div>
       <div>
@@ -79,10 +67,10 @@ Information Developer & Certified Business Analyst with 7+ years of experience e
         <div class="flex flex-wrap gap-4">
           <span class="neon-badge border-purple-400">Gemini</span>
           <span class="neon-badge border-purple-400">ChatGPT</span>
-          <span class="neon-badge border-purple-400">Perplexity</span>
+          <span class="neon-badge border-purple-400">Claude Code</span>
           <span class="neon-badge border-purple-400">NotebookLM</span>
-          <span class="neon-badge border-purple-400">AAVA</span>
-          <span class="neon-badge border-purple-400">Content Synthesis</span>
+          <span class="neon-badge border-purple-400">Rovo</span>
+          <span class="neon-badge border-purple-400">Antigravity</span>
         </div>
       <div>
         <h3 class="skill-header text-pink-400 border-pink-500/30">
